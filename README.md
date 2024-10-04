@@ -40,15 +40,8 @@ Expected Result: 8.0
 Actual Result: 8.0
 Outcome: Passed
 
-5. Additional Expression Evaluation
-Test Case: Input: "5 * (2 + 3)"
-Expected Result: 25.0
-Actual Result: 25.0
-Outcome: Passed
 Issues Encountered
-During the testing process, I encountered an issue when evaluating some mathematical expressions. Certain expressions threw exceptions due to incorrect formatting.
-I handled these issues by validating the input expressions to ensure they were well-formed before evaluation, which improved the robustness of the code.
+During the testing process, I encountered an issue with evaluating expressions using the JavaScript engine. Some expressions threw exceptions due to incorrect formatting. I handled these issues by ensuring that the input expressions were valid and well-formed before evaluation.
 
 Conclusion
-The StringProcessor class has been successfully tested, and all test cases passed without any critical issues.
-I learned how to create unit tests using JUnit, which enhanced my understanding of exception handling and overall code quality.
+The StringProcessor class has been successfully tested, and all test cases passed without any critical issues. I learned how to create unit tests using JUnit and improved my understanding of handling exceptions in code.
